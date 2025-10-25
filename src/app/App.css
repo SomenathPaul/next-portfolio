@@ -1,0 +1,27 @@
+.portfolio-main {
+  margin: 0;
+  width: 1000px;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+/* for tablet */
+@media screen and (max-width: 800px) {
+  .portfolio-main {
+    width: 700px;
+  }
+}
+
+/* for large phone */
+@media screen and (max-width: 500px) {
+  .portfolio-main {
+    width: 400px;
+  }
+}
+
+/* for small phone */
+@media screen and (max-width: 380px) {
+  .portfolio-main {
+    width: 300px;
+  }
+}

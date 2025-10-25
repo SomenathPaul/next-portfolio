@@ -1,0 +1,64 @@
+.footer {
+    height: 43vh;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: gainsboro;
+}
+.footer-about {
+    padding-inline: 40px;
+}
+.social-media-links {
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+    margin-block: 2rem;
+}
+.social-media-links a:hover {
+    color: #00ffff7c;
+    cursor: pointer;
+}
+.copyright {
+    width: 100%;
+    height: 9vh;
+    /* background: #0000003f; */
+    background: linear-gradient(#202020, #0000003f);
+    text-align: center;
+    padding-top: 28px;
+    color: whitesmoke;
+    font-size: 13px;
+    /* border: 1px solid #00ffff7c; */
+}
+.font-light {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.madelogo {
+    margin-top: 4px;
+    color: #009e9ee9;
+}
+
+/* for large phone */
+@media screen and (max-width: 500px) {
+  .footer-about {
+    font-size: 13px;
+    padding-inline: 5px;
+  }
+  .social-media-links {
+    gap: 15px;
+    font-size: 25px;
+}
+}
+
+/* for small phone */
+@media screen and (max-width: 380px) {
+  .footer-about {
+    padding-top: 5px;
+    font-size: 11px;
+    padding-inline: 20px;
+}
+}

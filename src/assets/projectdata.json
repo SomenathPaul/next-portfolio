@@ -1,0 +1,98 @@
+{
+    "TopProjects": [
+    {
+      "id": 1,
+      "visibility" : "yes",
+      "image": "/top-projects/jarvis.png",
+      "title": "Jarvis - AI Assistant",
+      "description": "HTML, CSS, JS",
+      "link": "http://127.0.0.1:5501/index.html"
+    },
+    {
+      "id": 2,
+      "visibility" : "yes",
+      "image": "/top-projects/tour.jpg",
+      "title": "Tour & Travel Website",
+      "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
+      "link": "localhost/travel&tourwebsite/"
+    },
+    {
+      "id": 3,
+      "visibility" : "no",
+      "image": "/top-projects/music-player.jpg", 
+      "title": "Music Player",
+      "description": "ReactJS",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "visibility" : "no",
+      "image": "/top-projects/social-website.jpg", 
+      "title": "Social Media Website",
+      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "link": ""
+    }
+  ],
+  "MERNProjects": [
+    {
+      "id": 1,
+      "visibility" : "no",
+      "image": "/mern-projects/social-website.jpg",
+      "title": "Social Media Website",
+      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "visibility" : "no",
+      "image": "/mern-projects/chat-application-website.gif",
+      "title": "Chat Application",
+      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "link": ""
+    }
+  ],
+  "FullStackPHPMySQLProjects": [
+    {
+      "id": 1,
+      "visibility" : "yes",
+      "image": "/php-sql-projects/1.png",
+      "title": "Tour & Travel Website",
+      "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
+      "link": "localhost/travel&tourwebsite/"
+    },
+    {
+      "id": 2,
+      "visibility" : "no",
+      "image": "/php-sql-projects/2.jpg",
+      "title": "Doctor Appointment Booking System",
+      "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
+      "link": ""
+    }
+  ],
+  "CloneProjects": [
+    {
+      "id": 1,
+      "visibility" : "yes",
+      "image": "/clone-projects/amazon-clone.jpg",
+      "title": "Amazon Clone",
+      "description": "HTML, CSS",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "visibility" : "yes",
+      "image": "/clone-projects/netflix-clone.png",
+      "title": "Netflix Clone",
+      "description": "HTML, CSS",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "visibility" : "no",
+      "image": "/clone-projects/youtube-clone.png", 
+      "title": "YouTube Clone",
+      "description": "HTML, CSS",
+      "link": ""
+    }
+  ]
+}

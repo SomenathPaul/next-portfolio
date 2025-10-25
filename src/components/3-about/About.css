@@ -1,0 +1,103 @@
+.section2 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient(#00ffff3f, black);
+    padding: 30px;
+}
+.about h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: aqua;
+}
+.about-myself, .about-education {
+    display: flex;
+    gap: 20px;
+}
+.about-myself img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid aqua;
+    padding: 5px;
+}
+.about-myself p {
+    color: azure;
+}
+.about-education img {
+    width: 600px;
+    height: 200px;
+    border: 1px solid aqua;
+    padding: 5px;
+    transition: .1s linear;
+}
+.about-education p {
+    text-align: right;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(222, 234, 244);
+}
+.owner-profile-about-text li {
+    font-weight: 600;
+    color: aqua;
+}
+/* for tablet */
+@media screen and (max-width: 800px) {
+  .section2 {
+    /* border: 1px solid aqua; */
+    height: auto;
+  }
+  .about h1 {
+    font-size: 40px;
+  }
+  .about-myself img, .about-education img {
+    width: 100%;
+    height: 200px;
+  }
+  .about-myself p {
+    font-size: 13px;
+  }
+  .about-education {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .about-education p{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-myself, .about-education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  .owner-profile-about-text ul{
+    margin-top: 10px;
+  }
+  .about-myself img {
+    width: 300px;
+    height: auto;
+  }
+  .about-education img{
+    order: 1;
+    height: auto;
+  }
+  .about-education p{
+    order: 2;
+  }
+  .about-education p {
+    font-size: 13px;
+  }
+}
+
+/* for large phone */
+@media screen and (max-width: 500px) {
+  .about h1 {
+    font-size: 35px;
+    font-weight: 300;
+}
+}

@@ -1,0 +1,50 @@
+navbar {
+    1. home
+    2. about
+    3. projects
+    4. achievements
+}
+
+
+
+projects
+    * top-projects 
+    new page all-projects[4] {
+    1. clone-projects (html, css, js)
+    2. javascript-projects
+    3. react projects
+	4. MERN stack projects
+    5. full stack php-sql projects
+    }
+
+    * react projects {
+        1. portfolio
+    }
+    
+    * MERN stack projects {
+	1. Tour & Travel Website
+	}
+    
+    * full stack php-sql projects {
+	1. Tour & Travel Website
+	}
+
+achievements
+    * top-achievements
+    new page all-achievements[4] {
+        
+    }
+
+
+
+
+//////////////////////
+download btn can't work
+
+
+skills from internshala
+
+react native developer - html css, js, mongodb, react, react native
+backend developer - mysql, python, mongodb, django, postgresql, devops, rest api, nlp, aws, kubernetes, node, express, next js, typescript, php, jquery, wordpress, bootstrap, react, dsa
+
+my skills - html, css, bootstrap, tailwind, javascript, jquery, react, php, node, express, mysql, mongodb

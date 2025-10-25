@@ -1,0 +1,174 @@
+.section1 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background: linear-gradient(#000, #00ffff3f);
+  padding: 30px;
+}
+.sec1name {
+  width: 450px;
+}
+.sec1name h2 {
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  /* background: gray; */
+}
+.somenath {
+  color: aqua;
+}
+
+.animation_text {
+  font-size: 30px;
+}
+
+.sec1name p {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0 10px 0;
+}
+.sec1btn button {
+  width: 140px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: medium;
+  border: none;
+  border-radius: 1px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#hirebtn:hover {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+}
+.section1 img {
+  width: 300px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  /* border: 1px solid transparent; */
+  background-image: linear-gradient(to right, aqua, #1c3f67);
+  background-origin: border-box;
+  background-clip: border-box;
+}
+#cvbtn {
+  background: transparent;
+  border: 1px solid aqua;
+  color: aqua;
+}
+#cvbtn:hover {
+  color: black;
+  background: aqua;
+  box-shadow: 0 0 10px aqua;
+}
+.certificate {
+  background: url(../../../public/home-certificate.jpg);
+  background-position: center;
+  background-size: 100%;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px black;
+  border-radius: 0 20px 0 20px;
+  transition: 0.3s linear;
+}
+.certificate:hover {
+  background-size: 220%;
+}
+/*  */
+@keyframes rotate3dImage {
+  from {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+.rotate-3d-animation {
+  animation: rotate3dImage 2s ease-out 1;
+  transform-style: preserve-3d;
+}
+
+/* for tablet */
+@media screen and (max-width: 800px) {
+  .section1 {
+    height: 80vh;
+    /* border: 1px solid red; */
+  }
+  .sec1name h2 {
+    font-size: 25px;
+  }
+  .animation_text {
+    font-size: 25px;
+  }
+  .sec1name p {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .sec1btn button {
+    width: 120px;
+    height: 35px;
+    font-size: small;
+  }
+  .certificate {
+    width: 250px;
+    height: 150px;
+  }
+  .section1 img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* reordering section */
+  .sec1name {
+    order: 2;
+    width: 340px;
+  }
+  .rotate-3d-animation {
+    order: 1;
+  }
+  .section1 {
+    height: auto;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profile-img {
+    width: 150px !important;
+    height: 220px !important;
+  }
+  .section1 img {
+    padding: 5px;
+  }
+  .sec1name p {
+    color: #e2e2e2;
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .certificate {
+    display: none;
+  }
+}
+
+/* for small phone */
+@media screen and (max-width: 380px) {
+  .sec1name {
+    width: 265px;
+  }
+  .sec1name h2 {
+    font-size: 20px;
+    gap: 4px;
+  }
+  .animation_text {
+    font-size: 23px;
+  }
+}

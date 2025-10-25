@@ -1,0 +1,136 @@
+{
+    "Languages": [
+    {
+      "id": 1,
+      "level" : "Advanced",
+      "logo": "FaJsSquare",
+      "name": "JavaScript",
+      "project": "2"
+    },
+    {
+      "id": 2,
+      "level" : "Intermediate",
+      "logo": "FaPhp",
+      "name": "PHP",
+      "project": "1"
+    },
+    {
+      "id": 3,
+      "level" : "Beginner",
+      "logo": "FaJava",
+      "name": "Java",
+      "project": "2"
+    },
+    {
+      "id": 4,
+      "level" : "Beginner",
+      "logo": "FaPython",
+      "name": "Python",
+      "project": "1"
+    },
+    {
+      "id": 5,
+      "level" : "Intermediate",
+      "logo": "FaC",
+      "name": "C",
+      "project": "1"
+    }
+  ],
+  "Frontend": [
+    {
+        "id": 1,
+        "level" : "Beginner",
+        "logo": "FaReact",
+        "name": "ReactJS",
+        "project": "2"
+      },
+      {
+        "id": 2,
+        "level" : "Beginner",
+        "logo": "RiTailwindCssFill",
+        "name": "Tailwind",
+        "project": "3"
+      },
+      {
+        "id": 3,
+        "level" : "Advanced",
+        "logo": "FaHtml5",
+        "name": "HTML",
+        "project": "10"
+      },
+      {
+        "id": 4,
+        "level" : "Intermediate",
+        "logo": "FaCss3Alt",
+        "name": "CSS",
+        "project": "7"
+      },
+      {
+        "id": 5,
+        "level" : "Intermediate",
+        "logo": "FaBootstrap",
+        "name": "BootStrap",
+        "project": "2"
+      },
+      {
+        "id": 6,
+        "level" : "Beginner",
+        "logo": "SiJquery",
+        "name": "JQuery",
+        "project": "1"
+      },
+      {
+        "id": 7,
+        "level" : "Advanced",
+        "logo": "FaJsSquare",
+        "name": "Vanilla JS",
+        "project": "7"
+      }
+  ],
+  "Backend": [
+    {
+        "id": 1,
+        "level" : "Beginner",
+        "logo": "FaNodeJs",
+        "name": "NodeJS",
+        "project": "3"
+      },
+      {
+        "id": 2,
+        "level" : "Beginner",
+        "logo": "SiExpress",
+        "name": "ExpressJS",
+        "project": "1"
+      },
+      {
+        "id": 3,
+        "level" : "Intermediate",
+        "logo": "FaPhp",
+        "name": "PHP",
+        "project": "2"
+      }
+  ],
+  "Database": [
+    {
+        "id": 1,
+        "level" : "Intermediate",
+        "logo": "SiMysql",
+        "name": "SQL",
+        "project": "3"
+      },
+      {
+        "id": 2,
+        "level" : "Beginner",
+        "logo": "SiMongodb",
+        "name": "MongoDB",
+        "project": "1"
+      },
+      {
+        "id": 3,
+        "level" : "Beginner",
+        "logo": "SiPostgresql",
+        "name": "PostgreSQL",
+        "project": "0"
+      }
+  ]
+}
