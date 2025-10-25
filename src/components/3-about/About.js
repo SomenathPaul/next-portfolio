@@ -16,7 +16,7 @@ function About() {
         <div className="about-myself">
           <img src="../../../about-pic.jpg" alt="owner-profile" data-aos="fade-down-right"/>
           <p className="owner-profile-about-text" data-aos="fade-right">
-            I'm{" "}
+            I&apos;m{" "}
             <a
               className="hover:underline"
               href="https://www.linkedin.com/in/somenathpaul/"
@@ -59,7 +59,7 @@ function About() {
           <p 
           data-aos="fade-up"
           >
-            Currently, I'm pursuing a Bachelor’s degree in Computer Science and
+            Currently, I&apos;m pursuing a Bachelor’s degree in Computer Science and
             Engineering at{" "}
             <a
               className="hover:underline"

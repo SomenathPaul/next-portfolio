@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="section1" id="home">
       <div className="sec1name">
-        <span className="text-gray-400">Hi, I'm</span>
+        <span className="text-gray-400">Hi, I&apos;m</span>
 
         {/* Avoid nested <h2> tags (invalid HTML) */}
         <h2>

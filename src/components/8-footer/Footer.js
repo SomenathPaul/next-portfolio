@@ -19,7 +19,7 @@ function Footer() {
           My Portfolio
         </h2>
         <p className="footer-about text-center font-light px-9 py-3 text-sm text-zinc-400" data-aos="fade-up" data-aos-duration="1300"> 
-          I'm Somenath Paul, an enthusiastic and driven web developer with a
+          I&apos;m Somenath Paul, an enthusiastic and driven web developer with a
           passion for creating intuitive, user-friendly web applications. I
           enjoy problem-solving and constantly strive to improve my skills in
           both frontend and backend development. My goal is to build innovative
