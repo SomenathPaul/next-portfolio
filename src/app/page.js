@@ -5,8 +5,7 @@ import './globals.css'
 export default function Page() {
   return (
     <>
-      {/* <Cursor /> */}
-      {/* <Cursor /> */}
+      <Cursor />
       <App />
     </>
   );

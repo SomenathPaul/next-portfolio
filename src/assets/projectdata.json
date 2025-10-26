@@ -2,34 +2,34 @@
     "TopProjects": [
     {
       "id": 1,
-      "visibility" : "yes",
-      "image": "/top-projects/jarvis.png",
-      "title": "Jarvis - AI Assistant",
-      "description": "HTML, CSS, JS",
+      "visibility" : "no",
+      "image": "/top-projects/ems.png",
+      "title": "HRly - Employee Management Portal",
+      "description": "Mongodb, ExpressJS, ReactJS, NodeJS",
       "link": "http://127.0.0.1:5501/index.html"
     },
     {
       "id": 2,
       "visibility" : "yes",
       "image": "/top-projects/tour.jpg",
-      "title": "Tour & Travel Website",
+      "title": "TripTrak - Tour & Travel Website",
       "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
       "link": "localhost/travel&tourwebsite/"
     },
     {
       "id": 3,
       "visibility" : "no",
-      "image": "/top-projects/music-player.jpg", 
-      "title": "Music Player",
-      "description": "ReactJS",
+      "image": "/top-projects/cmp.jpg", 
+      "title": "Career Management Website",
+      "description": "Mongodb, ExpressJS, ReactJS, NodeJS",
       "link": ""
     },
     {
       "id": 4,
       "visibility" : "no",
-      "image": "/top-projects/social-website.jpg", 
-      "title": "Social Media Website",
-      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "image": "/top-projects/music-player.jpg", 
+      "title": "BeatBliss - Music Player",
+      "description": "ReactJS",
       "link": ""
     }
   ],
@@ -37,17 +37,17 @@
     {
       "id": 1,
       "visibility" : "no",
-      "image": "/mern-projects/social-website.jpg",
-      "title": "Social Media Website",
-      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "image": "/mern-projects/ems.png",
+      "title": "HRly - Employee Management Portal",
+      "description": "Mongodb, ExpressJS, ReactJS, NodeJS",
       "link": ""
     },
     {
       "id": 2,
       "visibility" : "no",
-      "image": "/mern-projects/chat-application-website.gif",
-      "title": "Chat Application",
-      "description": "React, NodeJS, ExpressJS, MongoDB",
+      "image": "/mern-projects/cmp.jpg",
+      "title": "Career Management Website",
+      "description": "Mongodb, ExpressJS, ReactJS, NodeJS",
       "link": ""
     }
   ],
@@ -59,14 +59,6 @@
       "title": "Tour & Travel Website",
       "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
       "link": "localhost/travel&tourwebsite/"
-    },
-    {
-      "id": 2,
-      "visibility" : "no",
-      "image": "/php-sql-projects/2.jpg",
-      "title": "Doctor Appointment Booking System",
-      "description": "HTML, CSS, Bootstrap, JS, JQuery, PHP, MySQL",
-      "link": ""
     }
   ],
   "CloneProjects": [

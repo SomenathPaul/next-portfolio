@@ -29,7 +29,7 @@ export default function CustomCursor() {
         backgroundColor: "aqua", // Sun core color
         pointerEvents: "none",
         transform: "translate(-50%, -50%)",
-        boxShadow: "0 0 500px 60px aqua, 0 0 500px 60px white", 
+        boxShadow: "0 0 500px 30px aqua, 0 0 500px 60px white", 
         zIndex: 9999,
       }}
     />

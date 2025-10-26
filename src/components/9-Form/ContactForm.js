@@ -13,7 +13,6 @@ function ContactForm() {
   const [status, setStatus] = useState("");
   const [sending, setSending] = useState(false);
 
-  // Validation function
   const validateForm = (name, email, message) => {
     if (!name || name.trim().length < 2) {
       return (
@@ -58,10 +57,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",   // 🔹 Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID",  // 🔹 Replace with your EmailJS template ID
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form.current,
-        "YOUR_PUBLIC_KEY"    // 🔹 Replace with your EmailJS public key
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -97,7 +96,13 @@ function ContactForm() {
         Contact Me
       </h1>
 
-      <form ref={form} onSubmit={handleSubmit} className="flex flex-col gap-6" data-aos="fade-right" data-aos-duration="1000">
+      <form
+        ref={form}
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-6"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <input
           type="text"
           name="from_name"

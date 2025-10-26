@@ -6,7 +6,6 @@ import { ReactTyped } from "react-typed"; // ✅ only need ReactTyped
 import Image from "next/image"; // ✅ Next.js image optimization
 import "./ProjectCard.css";
 import { HiOutlineStatusOnline } from "react-icons/hi";
-import { MdVisibility } from "react-icons/md";
 
 
 export default function Project({visibility, title, description, image, link }) {

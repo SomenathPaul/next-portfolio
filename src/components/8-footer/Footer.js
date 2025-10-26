@@ -5,7 +5,7 @@ import "./Footer.css";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaTwitterSquare } from "react-icons/fa";
+import { FaYoutubeSquare } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 
 import { LuCode } from "react-icons/lu"; // ✅ correct import
@@ -27,17 +27,17 @@ function Footer() {
         </p>
         <hr />
         <ul className="social-media-links">
-          <a>
+          <a href="https://www.facebook.com/somenath.paul.3344" target="_blank" rel="noopener noreferrer">
             <FaFacebookSquare data-aos="flip-right" />
           </a>
-          <a>
+          <a href="https://github.com/SomenathPaul" target="_blank" rel="noopener noreferrer">
             <FaGithubSquare data-aos="flip-right" />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/somenathpaul/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a>
-            <FaTwitterSquare />
+          <a href="https://www.youtube.com/@CreatorPaul" target="_blank" rel="noopener noreferrer">
+            <FaYoutubeSquare />
           </a>
         </ul>
         <div className="copyright" >

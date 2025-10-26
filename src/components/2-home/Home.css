@@ -132,6 +132,8 @@
   .sec1name {
     order: 2;
     width: 340px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
   }
   .rotate-3d-animation {
     order: 1;
@@ -143,8 +145,8 @@
     align-items: flex-start;
   }
   .profile-img {
-    width: 150px !important;
-    height: 220px !important;
+    width: 250px !important;
+    height: 360px !important;
   }
   .section1 img {
     padding: 5px;

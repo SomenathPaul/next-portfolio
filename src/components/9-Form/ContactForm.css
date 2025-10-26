@@ -1,8 +1,8 @@
 .ContactForm {
-    height: 78vh;
+    /* height: 78vh; */
     width: 100%;
     background: linear-gradient(#00ffff3f, #202020);
-    /* border: 1px solid whitesmoke; */
+    /* border: 1px solid whitesmoke;/ */
     padding: 50px;
 }
 .ContactForm h1 {
